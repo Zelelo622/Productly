@@ -198,9 +198,6 @@ a {
   margin-bottom: 13px;
 }
 
-.tools__item-text {
-}
-
 .tools__link {
   background-color: #ff9900;
   display: block;
@@ -212,4 +209,163 @@ a {
   text-transform: uppercase;
   width: 173px;
   margin: 0 auto;
+}
+
+/*direction*/
+
+.direction {
+  padding: 120px 0 100px;
+}
+
+.direction__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.direction__item-content {
+  max-width: 486px;
+}
+
+.direction__item-pretitle {
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+
+.direction__item-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+
+.direction__item-text {
+  margin-bottom: 25px;
+}
+
+.first-par {
+  margin-bottom: 30px;
+}
+
+.direction__item-subtitle {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.direction__list {
+  list-style: none;
+}
+
+.direction__list-item {
+  margin-bottom: 30px;
+  padding-left: 65px;
+  position: relative;
+}
+.direction__list-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 35px;
+  height: 35px;
+  background-image: url(../img/marker.svg);
+}
+
+/*team*/
+
+.team {
+  background-image: url(../img/team-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.team__inner {
+  padding: 230px 0 380px;
+  position: relative;
+}
+
+.team__item {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+}
+
+.team__item--1 {
+  right: 95px;
+  top: 157px;
+}
+
+.team__item--2 {
+  left: 0;
+  top: 223px;
+}
+
+.team__item--3 {
+  left: 210px;
+  bottom: 223px;
+}
+
+.team__item--4 {
+  right: 300px;
+  bottom: 134px;
+}
+
+.team__item--5 {
+  right: 0;
+  bottom: 257px;
+}
+
+.team__item-img {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.team__item-text {
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  border-radius: 26px;
+  line-height: 24px;
+  color: #2f281e;
+  position: absolute;
+  top: -30px;
+  right: 75px;
+  white-space: nowrap;
+}
+
+.team__item-text--right {
+  right: auto;
+  left: 62px;
+  top: -41px;
+}
+
+.team__main {
+  text-align: center;
+  max-width: 542px;
+  margin: 0 auto;
+}
+
+.team__title {
+  margin-bottom: 22px;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+}
+
+.team__text {
+  color: #567592;
+  margin-bottom: 45px;
+}
+
+.team__btn {
+  background-color: #ff9900;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 30px;
 }
