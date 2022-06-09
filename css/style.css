@@ -369,3 +369,82 @@ a {
   color: #fff;
   padding: 15px 30px;
 }
+
+/*blog*/
+
+.blog {
+  padding: 30px 0 120px;
+}
+
+.blog__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #2f281e;
+  margin-bottom: 9px;
+}
+
+.blog__text {
+  margin-bottom: 55px;
+}
+
+.slider {
+  margin: 0 -20px;
+}
+
+.slider__item {
+  padding: 0 20px;
+}
+
+.slider__item-img {
+  width: 348px;
+  height: 185px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.slider__item-info {
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 12px;
+  line-height: 28px;
+}
+.slider__item-info span {
+  font-weight: 700;
+  color: #544837;
+}
+
+.slider__item-title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #2f281e;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-bottom: 84px;
+}
+.slider__item-title:hover {
+  color: #ff9900;
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.slick-dots button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  background-color: #efefef;
+  padding: 0;
+  margin: 0 5px;
+}
+.slick-dots .slick-active button {
+  background-color: #ff9900;
+}
