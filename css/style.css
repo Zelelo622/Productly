@@ -35,6 +35,37 @@ a {
   color: #2f281e;
 }
 
+.menu__burger {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: relative;
+}
+.menu__burger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+}
+.menu__burger::after,
+.menu__burger::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #000;
+  left: 0;
+}
+.menu__burger::before {
+  top: 0;
+}
+.menu__burger::after {
+  bottom: 0;
+}
+
 /*header*/
 
 .header__inner {
@@ -451,17 +482,11 @@ a {
 
 /*footer*/
 
-.footer {
-}
-
 .footer__inner {
   padding: 105px 0 100px;
   border-top: 1px solid rgba(188, 208, 229, 0.496913);
   display: flex;
   justify-content: space-between;
-}
-
-.logo__img {
 }
 
 .footer__menu {
