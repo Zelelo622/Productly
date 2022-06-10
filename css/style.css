@@ -448,3 +448,68 @@ a {
 .slick-dots .slick-active button {
   background-color: #ff9900;
 }
+
+/*footer*/
+
+.footer {
+}
+
+.footer__inner {
+  padding: 105px 0 100px;
+  border-top: 1px solid rgba(188, 208, 229, 0.496913);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__img {
+}
+
+.footer__menu {
+  width: 135px;
+}
+
+.footer__menu-title,
+.footer__form-text {
+  margin-bottom: 35px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2f281e;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
+}
+
+.footer__form {
+  width: 335px;
+}
+
+.footer__form-input {
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 21px;
+  display: inline-block;
+}
+.footer__form-input::placeholder {
+  color: #bcd0e5;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.footer__form-btn {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
